@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "773100798190",
+    "firebase_url": "https://chatapp-57564.firebaseio.com",
+    "project_id": "chatapp-57564",
+    "storage_bucket": "chatapp-57564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773100798190:android:10723f530893603888b3ff",
+        "android_client_info": {
+          "package_name": "com.example.ChatApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773100798190-mdlj72cp7gpjkr20e37oghvforhjeb56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ChatApp",
+            "certificate_hash": "9dafd532918231575a5bd845bed437f06f7e00da"
+          }
+        },
+        {
+          "client_id": "773100798190-d4um5j0397me6ndjfl81k1b9o3ho0g26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlkoQzA19H3mAGuxJfgf7RdP6hhlpFDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773100798190-d4um5j0397me6ndjfl81k1b9o3ho0g26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773100798190:android:85d49d61a312912288b3ff",
+        "android_client_info": {
+          "package_name": "com.ineat.appsync"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773100798190-d4um5j0397me6ndjfl81k1b9o3ho0g26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlkoQzA19H3mAGuxJfgf7RdP6hhlpFDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773100798190-d4um5j0397me6ndjfl81k1b9o3ho0g26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

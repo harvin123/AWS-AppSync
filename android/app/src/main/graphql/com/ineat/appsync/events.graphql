@@ -1,0 +1,32 @@
+﻿query GetMessages($doctorId:String!,$patientId:String!) {
+    getMessages(doctorId: $doctorId,patientId: $patientId) {
+        id
+        content
+		doctorId
+        patientId
+        type
+        author
+    }
+}
+
+mutation NewMessage($content: String!, $patientId: String!,$doctorId:String!,$type:String!,$author:String!) {
+    newMessage(content: $content, patientId: $patientId, doctorId: $doctorId,type: $type,author:$author) {
+        id
+        content
+        patientId
+        doctorId
+        type
+        author
+    }
+}
+
+subscription SubscribeToNewMessage($patientId: String!,$doctorId:String!) {
+    subscribeToNewMessage(doctorId: $doctorId,patientId: $patientId) {
+        id
+        content
+        patientId
+        doctorId
+        type
+        author
+    }
+}
